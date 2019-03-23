@@ -1,0 +1,95 @@
+﻿<ctrl ng-controller="MainCtrl">
+    <css>
+
+        <script type="text/javascript">
+
+            $css.add("main");
+            $css.add("main.info");
+            $css.add("main.icon");
+            $css.add("main.icon.img");
+            $css.add("main.start");
+            $css.add("main.start.background");
+            $css.add("main.start.text");
+
+            $css.main
+                .begin()
+                    .absolute()
+                    .width(960)
+                    .height(685)
+                    .top(0)
+                .save()
+                .state("hide")
+                    .left(-960)
+                .save()
+                .state("show")
+                    .left(0)
+                .save();
+
+            $css.main.info
+                .begin()
+                    .relativeLeftFull()
+                    .height(50)
+                    .textLineHeight(25)
+                    .textCenter()
+                    .textSize(12)
+                    .marginTop(25)
+                .save();
+
+            $css.main.icon
+                .begin()
+                    .relativeLeftFull()
+                    .height(250)
+                    .marginTop(25)
+                .save();
+
+            $css.main.icon.img
+                .begin()
+                    .absolute()
+                    .widthCentered($img.acoustic.fixedHeight(250))
+                    .height(250)
+                .save();
+
+            $css.main.start
+                .begin()
+                    .relativeLeftFull()
+                    .height(50)
+                    .marginTop(25)
+                .save()
+                .beginPseduo().hover()
+                    .cursorPointer()
+                .save();
+
+            $css.main.start.background
+                .begin()
+                    .absolute()
+                    .widthCentered(250)
+                    .heightFull()
+                    .backgroundColor("#000000")
+                    .opacity(0.3)
+                    .round(5)
+                .save();
+
+            $css.main.start.text
+                .begin()
+                    .absolute()
+                    .widthCentered(250)
+                    .textHeight(50)
+                    .textSize(16)
+                    .textCenter()
+                    .textColor("#FFFFFF")
+                .save();
+
+        </script>
+
+    </css>
+    <view class="{{state}}">
+        <info lexicon class="{{stateLexicon}}" ng-bind-html="$lexicon.simulator | sanitize"></info>
+        <icon>
+            <img src="/Files/img/acoustic.png" />
+        </icon>
+        <start ng-click="start()">
+            <background></background>
+            <text lexicon class="{{stateLexicon}}">{{$lexicon.start}}</text>
+        </start>
+    </view>
+</ctrl>

@@ -1,0 +1,55 @@
+﻿<ctrl ng-controller="TopbarCtrl">
+    <css>
+
+        <script type="text/javascript">                           
+
+            $css.add("topbar");
+            $css.add("topbar.logo");
+            $css.add("topbar.logo.icon");
+            $css.add("topbar.logo.icon.img");           
+
+            $css.topbar
+                .begin()
+                    .absolute()                        
+                    .widthFull()
+                    .height(130)
+                    .top(0)
+                .save();
+
+            $css.topbar.logo
+                .begin()
+                    .relativeLeft()
+                    .widthFull() 
+                    .height(130)
+                .save();
+
+            $css.topbar.logo.icon
+                .begin()
+                    .absolute()
+                    .widthCentered(200)                   
+                    .height(47)
+                    .top(30)
+                .save();
+
+            $css.topbar.logo.icon.img
+                .begin()
+                    .absolute()                                                                    
+                    .widthCentered(41)
+                    .height(47)
+                .save();           
+
+                               
+
+        </script>
+
+    </css>
+    <view class="{{state}}">        
+
+        <logo>
+            <icon>
+                <img src="/Files/img/acoustic.png" />
+            </icon>
+        </logo>       
+
+    </view>
+</ctrl>

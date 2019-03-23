@@ -1,0 +1,245 @@
+﻿<ctrl ng-controller="SliderCtrl">
+    <css>        
+
+        <script type="text/javascript">
+
+            $css.add("slider");
+            $css.add("slider.navigation");
+            $css.add("slider.navigation.items");
+            $css.add("slider.navigation.items.item");
+            $css.add("slider.pages");
+            $css.add("slider.pages.page");
+            $css.add("slider.pages.page.scroll");
+            $css.add("slider.pages.page.dcontent");
+            $css.add("slider.pages.page.dcontent.header");
+            $css.add("slider.pages.page.dcontent.url");
+            $css.add("slider.pages.page.dcontent.url.background");
+            $css.add("slider.pages.page.dcontent.url.text");
+            $css.add("slider.pages.page.dcontent.md");
+            $css.add("slider.pages.page.dcontent.md.p");
+            $css.add("slider.pages.page.dcontent.md.p.a");
+            $css.add("slider.pages.page.dcontent.md.ul");
+            $css.add("slider.pages.page.dcontent.md.ul.li");        
+
+            $css.slider
+                .begin()
+                    .absolute()
+                    .width(960)
+                    .heightCropFromFull(240)
+                    .top(90)
+                    .mask()
+                .save();
+
+            $css.slider.navigation
+                .begin()
+                    .relativeLeft()
+                    .widthFull()
+                    .height(30)
+                .save();
+
+            $css.slider.navigation.items
+                .begin()
+                    .absolute()
+                    .height(16)
+                .save();
+
+            $css.slider.navigation.items.item
+                .begin()
+                    .relativeLeft()
+                    .textHeight(30)
+                    .marginHorizontal(15)
+                    .textCenter()
+                    .textSize(14)
+                    .cursorPointer()
+                .save();
+
+            $css.slider.pages
+                .begin()
+                    .relativeLeft()
+                    .width(960 * 5)
+                    .heightCropFromFull(30)                    
+                .save()
+                .select()
+                    .left(0)
+                .commit();
+
+            $css.slider.pages.page
+                .begin()
+                    .relativeLeft()
+                    .width(960)
+                    .heightFull()
+                    .maskHorizontal()
+                .save();
+
+            $css.slider.pages.page.scroll
+                .begin()
+                    .absolute()
+                    .width(1000)
+                    .heightFull()
+                    .verticalScroll()
+                    .hideHorizontalScroll()
+                    .left(0)
+                .save();
+
+            $css.slider.pages.page.dcontent
+                .begin()
+                    .width(960)
+                .save();
+
+            $css.slider.pages.page.dcontent.header
+                .begin()
+                    .relativeLeftFull()
+                    .height(50)
+                    .textLineHeight(70)
+                    .textSize(14)
+                    .textCenter()
+                    .textBold()
+                .save();
+
+            $css.slider.pages.page.dcontent.url
+                .begin()
+                    .relativeLeft()
+                    .widthFull()
+                    .height(30)    
+                    .marginTop(40)
+                .save()
+                .beginPseduo().hover()
+                    .underline()
+                    .cursorPointer()
+                .save();
+
+            $css.slider.pages.page.dcontent.url.background
+                .begin()
+                    .absolute()                    
+                    .widthCentered(250)    
+                    .heightFull()                    
+                    .backgroundColor("#000000")
+                    .opacity(0.3)
+                    .round(5)
+                .save();
+
+            $css.slider.pages.page.dcontent.url.text
+                .begin()
+                    .absolute()
+                    .widthFull()
+                    .textHeight(30)
+                    .textCenter()
+                    .textSize(11)
+                    .removeTextDecoration()
+                .save();
+
+            $css.slider.pages.page.dcontent.md.p
+                .begin()
+                    .relativeLeftFull()
+                    .textSize(12)
+                    .textLineHeight(19)
+                    .textCenter()
+                    .textLight()
+                    .marginVertical(9)
+                    .inheritOpacity()
+                .save();
+
+            $css.slider.pages.page.dcontent.md.p.a
+                .begin()
+                    .removeTextDecoration()
+                    .textColorWhite()
+                .save()
+                .beginPseduo().hover()
+                    .underline()
+                    .cursorPointer()
+                .save();            
+
+            $css.slider.pages.page.dcontent.md.ul
+                .begin()
+                    .relativeLeft()
+                    .widthCentered(600)
+                    .marginVertical(8)
+                .save();
+
+            $css.slider.pages.page.dcontent.md.ul.li
+                .begin()
+                    .relativeLeftFull()
+                    .textSize(12)
+                    .textLineHeight(19)
+                    .textCenter()
+                    .textLight()
+                    .marginVertical(2)
+                    .inheritOpacity()
+                .save();                                                                                       
+
+            $style.onContentReadyStyling.subscribe(function () {
+
+                $css.slider.navigation.items.item
+                    .select()
+                        .textColorWhite()
+                    .commitAll()
+                    .selectAt($var.currentTabIndex)
+                        .textColor("#157DDA")
+                    .commit();                               
+
+                var width = $css.slider.navigation.items.select().element.offsetWidth + 1;
+
+                $css.slider.navigation.items
+                    .select()
+                        .widthCentered(width)
+                    .commit();
+
+                var as = $css.slider.pages.page.dcontent.md.p.a.select().elements;
+
+                for (var i = 0; i < as.length; i++) {
+                    as[i].setAttribute("target", "_blank");
+                }
+
+            });
+
+        </script>
+
+    </css>
+    <view class="{{state}}">
+
+        <navigation>
+            <items>
+                <item lexicon class="{{stateLexicon}}" ng-click="to(item.index)" ng-repeat="item in $lexicon.about">{{item.title}}</item>
+            </items>
+        </navigation>
+
+        <pages class="a-ease-500" style="left:0;">
+
+            <page>
+
+                <scroll>
+
+                    <main></main>
+                    <acoustic></acoustic>                    
+
+                </scroll>
+
+            </page>
+
+            <page ng-repeat="page in $lexicon.about | filter:{ index: '!0'}">
+
+                <scroll>                    
+
+                    <dcontent lexicon class="{{stateLexicon}}" ng-repeat="item in page.content">
+
+                        <header lexicon class="{{stateLexicon}}" ng-if="item.type != 'link'">{{item.title}}</header>
+
+                        <md ng-if="item.type == 'markdown'" ng-bind-html="item.text | sanitize"></md>
+
+                        <url ng-if="item.type == 'link'" ng-click="redirect(item.text)">
+                            <background></background>
+                            <text>
+                                {{item.title}}
+                            </text>
+                        </url>
+
+                    </dcontent>
+
+                </scroll>
+
+            </page>
+
+        </pages>
+
+    </view>
+</ctrl>

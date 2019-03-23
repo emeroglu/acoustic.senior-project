@@ -1,0 +1,133 @@
+﻿<ctrl ng-controller="BottombarCtrl">
+    <css>
+
+        <script type="text/javascript">
+
+            $css.add("bottombar");
+            $css.add("bottombar.stores");
+            $css.add("bottombar.stores.appstore");
+            $css.add("bottombar.stores.appstore.img");
+            $css.add("bottombar.stores.text");
+            $css.add("bottombar.stores.playstore");
+            $css.add("bottombar.stores.playstore.img");
+            $css.add("bottombar.logo");
+            $css.add("bottombar.logo.img");
+
+            $css.bottombar
+                .begin()
+                .absolute()
+                .widthFull()
+                .height(110)
+                .bottom(0)
+                .left(0)
+                .save();
+
+            $css.bottombar.stores
+                .begin()
+                .absolute()
+                .widthFull()
+                .height(30)
+                .left(0)
+                .bottom(80)
+                .save();
+
+            $css.bottombar.stores.appstore
+                .begin()
+                .relativeLeft()
+                .width(300)
+                .height(50)
+                .save();
+
+            $css.bottombar.stores.appstore.img
+                .begin()
+                .absolute()
+                .width($img.appstore.fixedHeight(30))
+                .height(30)
+                .top(8.5)
+                .left(190)
+                .save();
+
+            $css.bottombar.stores.text
+                .begin()
+                .relativeLeft()
+                .width(360)
+                .textCenter()
+                .textHeight(50)
+                .textSize(12)
+                .save();
+
+            $css.bottombar.stores.playstore
+                .begin()
+                .relativeLeft()
+                .width(300)
+                .height(30)
+                .save();
+
+            $css.bottombar.stores.playstore.img
+                .begin()
+                .absolute()
+                .width($img.playstore.fixedHeight(45))
+                .height(45)
+                .save();
+
+            $css.bottombar.logo
+                .begin()
+                .absolute()
+                .widthFull()
+                .height(40)
+                .bottom(20)
+                .left(0)
+                .save();
+
+            $css.bottombar.logo.img
+                .begin()
+                .absolute()
+                .save();
+
+            $style.onContentReadyStyling.subscribe(function () {                
+
+                if ($config.language == "tr") {
+
+                    $css.bottombar.logo.img
+                        .select()                            
+                            .widthCentered($img.logo.fixedHeight(33))
+                            .height(33)
+                        .commit();
+
+                } else {
+
+                    $css.bottombar.logo.img
+                        .select()
+                            .widthCentered($img.logo_en.fixedHeight(33))
+                            .height(33)
+                        .commit();
+
+                }
+
+            });
+
+        </script>
+
+    </css>
+    <view>
+
+        <stores>
+            <appstore>
+                <a href="https://itunes.apple.com/tr/app/cam-akustik/id1234198868?l=tr&mt=8" target="_blank">
+                    <img src="/Files/img/appstore.png" />
+                </a>
+            </appstore>
+            <text lexicon class="{{stateLexicon}}">{{$lexicon.stores}}</text>
+            <playstore>
+                <a href="https://play.google.com/store/apps/details?id=com.sisecam.akustik" target="_blank">
+                    <img src="/Files/img/playstore.png" />
+                </a>
+            </playstore>
+        </stores>
+
+        <logo>
+            <img lexicon class="{{stateLexicon}}" src="{{$lexicon.logo}}" />
+        </logo>
+
+    </view>
+</ctrl>

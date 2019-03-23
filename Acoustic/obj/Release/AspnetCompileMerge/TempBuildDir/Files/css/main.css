@@ -1,0 +1,891 @@
+﻿body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    font-family: 'Exo 2', sans-serif;
+    color: #666;
+}
+
+.a-disp {
+    display: block;
+}
+
+.a-none {
+    display: none;
+}
+
+.a-show {
+    opacity: 1;
+}
+
+.a-hide {
+    opacity: 0;
+}
+
+.a-95 {
+    z-index: 95;
+}
+
+.a-96 {
+    z-index: 96;
+}
+
+.a-97 {
+    z-index: 97;
+}
+
+.a-98 {
+    z-index: 98;
+}
+
+.a-99 {
+    z-index: 99;
+}
+
+.a-100 {
+    z-index: 100;
+}
+
+.a-101 {
+    z-index: 101;
+}
+
+.a-102 {
+    z-index: 102;
+}
+
+.a-103 {
+    z-index: 103;
+}
+
+.a-104 {
+    z-index: 104;
+}
+
+.a-105 {
+    z-index: 105;
+}
+
+.a-ease-100 {
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+}
+
+.a-ease-150 {
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    -o-transition: all 150ms ease;
+    -ms-transition: all 150ms ease;
+}
+
+.a-ease-200 {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+}
+
+.a-ease-250 {
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+}
+
+.a-ease-300 {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+}
+
+.a-ease-350 {
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+}
+
+.a-ease-400 {
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+}
+
+.a-ease-450 {
+    -webkit-transition: all 450ms ease;
+    -moz-transition: all 450ms ease;
+    -o-transition: all 450ms ease;
+    -ms-transition: all 450ms ease;
+}
+
+.a-ease-500 {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+}
+
+.a-ease-550 {
+    -webkit-transition: all 550ms ease;
+    -moz-transition: all 550ms ease;
+    -o-transition: all 550ms ease;
+    -ms-transition: all 550ms ease;
+}
+
+.a-ease-600 {
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+}
+
+.a-ease-650 {
+    -webkit-transition: all 650ms ease;
+    -moz-transition: all 650ms ease;
+    -o-transition: all 650ms ease;
+    -ms-transition: all 650ms ease;
+}
+
+.a-ease-700 {
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+}
+
+.a-ease-750 {
+    -webkit-transition: all 750ms ease;
+    -moz-transition: all 750ms ease;
+    -o-transition: all 750ms ease;
+    -ms-transition: all 750ms ease;
+}
+
+.a-ease-800 {
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+}
+
+.a-ease-850 {
+    -webkit-transition: all 850ms ease;
+    -moz-transition: all 850ms ease;
+    -o-transition: all 850ms ease;
+    -ms-transition: all 850ms ease;
+}
+
+.a-ease-900 {
+    -webkit-transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+}
+
+.a-ease-950 {
+    -webkit-transition: all 950ms ease;
+    -moz-transition: all 950ms ease;
+    -o-transition: all 950ms ease;
+    -ms-transition: all 950ms ease;
+}
+
+.a-ease-1000 {
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+}
+
+.a-ease-1050 {
+    -webkit-transition: all 1050ms ease;
+    -moz-transition: all 1050ms ease;
+    -o-transition: all 1050ms ease;
+    -ms-transition: all 1050ms ease;
+}
+
+.a-ease-1100 {
+    -webkit-transition: all 1100ms ease;
+    -moz-transition: all 1100ms ease;
+    -o-transition: all 1100ms ease;
+    -ms-transition: all 1100ms ease;
+}
+
+.a-ease-1150 {
+    -webkit-transition: all 1150ms ease;
+    -moz-transition: all 1150ms ease;
+    -o-transition: all 1150ms ease;
+    -ms-transition: all 1150ms ease;
+}
+
+.a-ease-1200 {
+    -webkit-transition: all 1200ms ease;
+    -moz-transition: all 1200ms ease;
+    -o-transition: all 1200ms ease;
+    -ms-transition: all 1200ms ease;
+}
+
+.a-ease-1250 {
+    -webkit-transition: all 1250ms ease;
+    -moz-transition: all 1250ms ease;
+    -o-transition: all 1250ms ease;
+    -ms-transition: all 1250ms ease;
+}
+
+.a-ease-1300 {
+    -webkit-transition: all 1300ms ease;
+    -moz-transition: all 1300ms ease;
+    -o-transition: all 1300ms ease;
+    -ms-transition: all 1300ms ease;
+}
+
+.a-ease-1350 {
+    -webkit-transition: all 1350ms ease;
+    -moz-transition: all 1350ms ease;
+    -o-transition: all 1350ms ease;
+    -ms-transition: all 1350ms ease;
+}
+
+.a-ease-1400 {
+    -webkit-transition: all 1400ms ease;
+    -moz-transition: all 1400ms ease;
+    -o-transition: all 1400ms ease;
+    -ms-transition: all 1400ms ease;
+}
+
+.a-ease-1450 {
+    -webkit-transition: all 1450ms ease;
+    -moz-transition: all 1450ms ease;
+    -o-transition: all 1450ms ease;
+    -ms-transition: all 1450ms ease;
+}
+
+.a-ease-1500 {
+    -webkit-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    -o-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+}
+
+.a-ease-1550 {
+    -webkit-transition: all 1550ms ease;
+    -moz-transition: all 1550ms ease;
+    -o-transition: all 1550ms ease;
+    -ms-transition: all 1550ms ease;
+}
+
+.a-ease-1600 {
+    -webkit-transition: all 1600ms ease;
+    -moz-transition: all 1600ms ease;
+    -o-transition: all 1600ms ease;
+    -ms-transition: all 1600ms ease;
+}
+
+.a-ease-1650 {
+    -webkit-transition: all 1650ms ease;
+    -moz-transition: all 1650ms ease;
+    -o-transition: all 1650ms ease;
+    -ms-transition: all 1650ms ease;
+}
+
+.a-ease-1700 {
+    -webkit-transition: all 1700ms ease;
+    -moz-transition: all 1700ms ease;
+    -o-transition: all 1700ms ease;
+    -ms-transition: all 1700ms ease;
+}
+
+.a-ease-1750 {
+    -webkit-transition: all 1750ms ease;
+    -moz-transition: all 1750ms ease;
+    -o-transition: all 1750ms ease;
+    -ms-transition: all 1750ms ease;
+}
+
+.a-ease-1800 {
+    -webkit-transition: all 1800ms ease;
+    -moz-transition: all 1800ms ease;
+    -o-transition: all 1800ms ease;
+    -ms-transition: all 1800ms ease;
+}
+
+.a-ease-1850 {
+    -webkit-transition: all 1850ms ease;
+    -moz-transition: all 1850ms ease;
+    -o-transition: all 1850ms ease;
+    -ms-transition: all 1850ms ease;
+}
+
+.a-ease-1900 {
+    -webkit-transition: all 1900ms ease;
+    -moz-transition: all 1900ms ease;
+    -o-transition: all 1900ms ease;
+    -ms-transition: all 1900ms ease;
+}
+
+.a-ease-1950 {
+    -webkit-transition: all 1950ms ease;
+    -moz-transition: all 1950ms ease;
+    -o-transition: all 1950ms ease;
+    -ms-transition: all 1950ms ease;
+}
+
+.a-ease-2000 {
+    -webkit-transition: all 2000ms ease;
+    -moz-transition: all 2000ms ease;
+    -o-transition: all 2000ms ease;
+    -ms-transition: all 2000ms ease;
+}
+
+.a-linear-100 {
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+}
+
+.a-linear-150 {
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+}
+
+.a-linear-200 {
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+}
+
+.a-linear-250 {
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+}
+
+.a-linear-300 {
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+}
+
+.a-linear-350 {
+    -webkit-transition: all 350ms linear;
+    -moz-transition: all 350ms linear;
+    -o-transition: all 350ms linear;
+    -ms-transition: all 350ms linear;
+}
+
+.a-linear-400 {
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+}
+
+.a-linear-450 {
+    -webkit-transition: all 450ms linear;
+    -moz-transition: all 450ms linear;
+    -o-transition: all 450ms linear;
+    -ms-transition: all 450ms linear;
+}
+
+.a-linear-500 {
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+}
+
+.a-linear-550 {
+    -webkit-transition: all 550ms linear;
+    -moz-transition: all 550ms linear;
+    -o-transition: all 550ms linear;
+    -ms-transition: all 550ms linear;
+}
+
+.a-linear-600 {
+    -webkit-transition: all 600ms linear;
+    -moz-transition: all 600ms linear;
+    -o-transition: all 600ms linear;
+    -ms-transition: all 600ms linear;
+}
+
+.a-linear-650 {
+    -webkit-transition: all 650ms linear;
+    -moz-transition: all 650ms linear;
+    -o-transition: all 650ms linear;
+    -ms-transition: all 650ms linear;
+}
+
+.a-linear-700 {
+    -webkit-transition: all 700ms linear;
+    -moz-transition: all 700ms linear;
+    -o-transition: all 700ms linear;
+    -ms-transition: all 700ms linear;
+}
+
+.a-linear-750 {
+    -webkit-transition: all 750ms linear;
+    -moz-transition: all 750ms linear;
+    -o-transition: all 750ms linear;
+    -ms-transition: all 750ms linear;
+}
+
+.a-linear-800 {
+    -webkit-transition: all 800ms linear;
+    -moz-transition: all 800ms linear;
+    -o-transition: all 800ms linear;
+    -ms-transition: all 800ms linear;
+}
+
+.a-linear-850 {
+    -webkit-transition: all 850ms linear;
+    -moz-transition: all 850ms linear;
+    -o-transition: all 850ms linear;
+    -ms-transition: all 850ms linear;
+}
+
+.a-linear-900 {
+    -webkit-transition: all 900ms linear;
+    -moz-transition: all 900ms linear;
+    -o-transition: all 900ms linear;
+    -ms-transition: all 900ms linear;
+}
+
+.a-linear-950 {
+    -webkit-transition: all 950ms linear;
+    -moz-transition: all 950ms linear;
+    -o-transition: all 950ms linear;
+    -ms-transition: all 950ms linear;
+}
+
+.a-linear-1000 {
+    -webkit-transition: all 1000ms linear;
+    -moz-transition: all 1000ms linear;
+    -o-transition: all 1000ms linear;
+    -ms-transition: all 1000ms linear;
+}
+
+.a-linear-1050 {
+    -webkit-transition: all 1050ms linear;
+    -moz-transition: all 1050ms linear;
+    -o-transition: all 1050ms linear;
+    -ms-transition: all 1050ms linear;
+}
+
+.a-linear-1100 {
+    -webkit-transition: all 1100ms linear;
+    -moz-transition: all 1100ms linear;
+    -o-transition: all 1100ms linear;
+    -ms-transition: all 1100ms linear;
+}
+
+.a-linear-1150 {
+    -webkit-transition: all 1150ms linear;
+    -moz-transition: all 1150ms linear;
+    -o-transition: all 1150ms linear;
+    -ms-transition: all 1150ms linear;
+}
+
+.a-linear-1200 {
+    -webkit-transition: all 1200ms linear;
+    -moz-transition: all 1200ms linear;
+    -o-transition: all 1200ms linear;
+    -ms-transition: all 1200ms linear;
+}
+
+.a-linear-1250 {
+    -webkit-transition: all 1250ms linear;
+    -moz-transition: all 1250ms linear;
+    -o-transition: all 1250ms linear;
+    -ms-transition: all 1250ms linear;
+}
+
+.a-linear-1300 {
+    -webkit-transition: all 1300ms linear;
+    -moz-transition: all 1300ms linear;
+    -o-transition: all 1300ms linear;
+    -ms-transition: all 1300ms linear;
+}
+
+.a-linear-1350 {
+    -webkit-transition: all 1350ms linear;
+    -moz-transition: all 1350ms linear;
+    -o-transition: all 1350ms linear;
+    -ms-transition: all 1350ms linear;
+}
+
+.a-linear-1400 {
+    -webkit-transition: all 1400ms linear;
+    -moz-transition: all 1400ms linear;
+    -o-transition: all 1400ms linear;
+    -ms-transition: all 1400ms linear;
+}
+
+.a-linear-1450 {
+    -webkit-transition: all 1450ms linear;
+    -moz-transition: all 1450ms linear;
+    -o-transition: all 1450ms linear;
+    -ms-transition: all 1450ms linear;
+}
+
+.a-linear-1500 {
+    -webkit-transition: all 1500ms linear;
+    -moz-transition: all 1500ms linear;
+    -o-transition: all 1500ms linear;
+    -ms-transition: all 1500ms linear;
+}
+
+.a-linear-1550 {
+    -webkit-transition: all 1550ms linear;
+    -moz-transition: all 1550ms linear;
+    -o-transition: all 1550ms linear;
+    -ms-transition: all 1550ms linear;
+}
+
+.a-linear-1600 {
+    -webkit-transition: all 1600ms linear;
+    -moz-transition: all 1600ms linear;
+    -o-transition: all 1600ms linear;
+    -ms-transition: all 1600ms linear;
+}
+
+.a-linear-1650 {
+    -webkit-transition: all 1650ms linear;
+    -moz-transition: all 1650ms linear;
+    -o-transition: all 1650ms linear;
+    -ms-transition: all 1650ms linear;
+}
+
+.a-linear-1700 {
+    -webkit-transition: all 1700ms linear;
+    -moz-transition: all 1700ms linear;
+    -o-transition: all 1700ms linear;
+    -ms-transition: all 1700ms linear;
+}
+
+.a-linear-1750 {
+    -webkit-transition: all 1750ms linear;
+    -moz-transition: all 1750ms linear;
+    -o-transition: all 1750ms linear;
+    -ms-transition: all 1750ms linear;
+}
+
+.a-linear-1800 {
+    -webkit-transition: all 1800ms linear;
+    -moz-transition: all 1800ms linear;
+    -o-transition: all 1800ms linear;
+    -ms-transition: all 1800ms linear;
+}
+
+.a-linear-1850 {
+    -webkit-transition: all 1850ms linear;
+    -moz-transition: all 1850ms linear;
+    -o-transition: all 1850ms linear;
+    -ms-transition: all 1850ms linear;
+}
+
+.a-linear-1900 {
+    -webkit-transition: all 1900ms linear;
+    -moz-transition: all 1900ms linear;
+    -o-transition: all 1900ms linear;
+    -ms-transition: all 1900ms linear;
+}
+
+.a-linear-1950 {
+    -webkit-transition: all 1950ms linear;
+    -moz-transition: all 1950ms linear;
+    -o-transition: all 1950ms linear;
+    -ms-transition: all 1950ms linear;
+}
+
+.a-linear-2000 {
+    -webkit-transition: all 2000ms linear;
+    -moz-transition: all 2000ms linear;
+    -o-transition: all 2000ms linear;
+    -ms-transition: all 2000ms linear;
+}
+
+.a-cubic-100 {
+    -webkit-transition: all 100ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 100ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 100ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 100ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-150 {
+    -webkit-transition: all 150ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 150ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 150ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 150ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-200 {
+    -webkit-transition: all 200ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 200ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 200ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 200ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-250 {
+    -webkit-transition: all 250ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 250ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 250ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 250ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-300 {
+    -webkit-transition: all 300ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 300ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 300ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 300ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-350 {
+    -webkit-transition: all 350ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 350ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 350ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 350ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-400 {
+    -webkit-transition: all 400ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 400ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 400ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 400ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-450 {
+    -webkit-transition: all 450ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 450ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 450ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 450ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-500 {
+    -webkit-transition: all 500ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 500ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 500ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 500ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-550 {
+    -webkit-transition: all 550ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 550ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 550ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 550ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-600 {
+    -webkit-transition: all 600ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 600ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 600ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 600ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-650 {
+    -webkit-transition: all 650ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 650ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 650ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 650ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-700 {
+    -webkit-transition: all 700ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 700ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 700ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 700ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-750 {
+    -webkit-transition: all 750ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 750ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 750ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 750ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-800 {
+    -webkit-transition: all 800ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 800ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 800ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 800ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-850 {
+    -webkit-transition: all 850ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 850ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 850ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 850ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-900 {
+    -webkit-transition: all 900ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 900ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 900ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 900ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-950 {
+    -webkit-transition: all 950ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 950ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 950ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 950ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1000 {
+    -webkit-transition: all 1000ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1000ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1000ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1000ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1050 {
+    -webkit-transition: all 1050ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1050ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1050ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1050ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1100 {
+    -webkit-transition: all 1100ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1100ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1100ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1100ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1150 {
+    -webkit-transition: all 1150ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1150ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1150ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1150ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1200 {
+    -webkit-transition: all 1200ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1200ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1200ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1200ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1250 {
+    -webkit-transition: all 1250ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1250ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1250ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1250ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1300 {
+    -webkit-transition: all 1300ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1300ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1300ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1300ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1350 {
+    -webkit-transition: all 1350ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1350ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1350ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1350ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1400 {
+    -webkit-transition: all 1400ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1400ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1400ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1400ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1450 {
+    -webkit-transition: all 1450ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1450ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1450ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1450ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1500 {
+    -webkit-transition: all 1500ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1500ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1500ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1500ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1550 {
+    -webkit-transition: all 1550ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1550ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1550ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1550ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1600 {
+    -webkit-transition: all 1600ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1600ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1600ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1600ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1650 {
+    -webkit-transition: all 1650ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1650ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1650ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1650ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1700 {
+    -webkit-transition: all 1700ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1700ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1700ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1700ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1750 {
+    -webkit-transition: all 1750ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1750ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1750ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1750ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1800 {
+    -webkit-transition: all 1800ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1800ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1800ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1800ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1850 {
+    -webkit-transition: all 1850ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1850ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1850ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1850ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1900 {
+    -webkit-transition: all 1900ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1900ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1900ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1900ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-1950 {
+    -webkit-transition: all 1950ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 1950ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 1950ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 1950ms cubic-bezier(0, 0.75, 0, 1);
+}
+
+.a-cubic-2000 {
+    -webkit-transition: all 2000ms cubic-bezier(0, 0.75, 0, 1);
+    -moz-transition: all 2000ms cubic-bezier(0, 0.75, 0, 1);
+    -o-transition: all 2000ms cubic-bezier(0, 0.75, 0, 1);
+    -ms-transition: all 2000ms cubic-bezier(0, 0.75, 0, 1);
+}

@@ -1,0 +1,64 @@
+﻿{
+  "lexicon": {
+    "title": {
+      "en": "Acoustic",
+      "tr": "Akustik"
+    },
+    "start": {
+      "en": "Quick Start",
+      "tr": "Hemen Başla"
+    },
+    "simulator": {
+      "en": "Şişecam Acoustic Laminated Glass<br />Noise Control Simulator",
+      "tr": "Şişecam Akustik Lamine Cam<br />Gürültü Kontrol Simülatörü"
+    },
+    "reduction": {
+      "en": "better sound <br /> insulation",
+      "tr": "daha iyi <br /> ses yalıtımı"
+    },
+    "stores": {
+      "en": "Now available on iOS and Android. Download now.",
+      "tr": "Şimdi iOS ve Android platformlarında. Hemen indirin."
+    },
+    "noise_info": {
+      "en": "Please choose a noise source.",
+      "tr": "Gürültü kaynağını seçiniz."
+    },
+    "glasses_info": {
+      "en": "Please choose a product.",
+      "tr": "Ürün seçiniz."
+    },
+    "reference": {
+      "en": "Reference Product",
+      "tr": "Referans Ürün"
+    },
+    "present": {
+      "en": "Available",
+      "tr": "Var"
+    },
+    "absent": {
+      "en": "N/A",
+      "tr": "Yok"
+    },
+    "combination": {
+      "en": "Glazing Combination",
+      "tr": "Cam Kombinasyonu"
+    },
+    "performance": {
+      "en": "Acoustic Performance (Rw)",
+      "tr": "Akustik Performans (Rw)"
+    },
+    "noise_reduction": {
+      "en": "Perceived Noise Reduction",
+      "tr": "Algılanan Ses Azalımı"
+    },
+    "security": {
+      "en": "Safety / Security",
+      "tr": "Emniyet / Güvenlik"
+    },
+    "heat_isolation": {
+      "en": "Thermal Insulatin (U Value)",
+      "tr": "Isı Yalıtımı (U Değeri)"
+    }
+  }
+}

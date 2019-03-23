@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43BA5B92-AE17-4E71-B253-F3FF3C555715}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Acoustic</RootNamespace>
+    <AssemblyName>Acoustic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\audio\city.mp3" />
+    <Content Include="Files\audio\construction.mp3" />
+    <Content Include="Files\audio\lawn_mower.mp3" />
+    <Content Include="Files\audio\night_club.mp3" />
+    <Content Include="Files\audio\plane.mp3" />
+    <Content Include="Files\audio\traffic.mp3" />
+    <Content Include="Files\audio\train.mp3" />
+    <Content Include="Files\css\main.css" />
+    <Content Include="Files\css\style.css" />
+    <Content Include="Files\html\acoustic.html" />
+    <Content Include="Files\html\bottombar.html" />
+    <Content Include="Files\html\language.html" />
+    <Content Include="Files\html\main.html" />
+    <Content Include="Files\html\slider.html" />
+    <Content Include="Files\html\topbar.html" />
+    <Content Include="Files\img\acoustic.png" />
+    <Content Include="Files\img\appstore.png" />
+    <Content Include="Files\img\background.png" />
+    <Content Include="Files\img\bottom_ribbon.png" />
+    <Content Include="Files\img\favicon.ico" />
+    <Content Include="Files\img\glass_1.png" />
+    <Content Include="Files\img\glass_2.png" />
+    <Content Include="Files\img\glass_3.png" />
+    <Content Include="Files\img\glass_4.png" />
+    <Content Include="Files\img\glass_5.png" />
+    <Content Include="Files\img\icon.png" />
+    <Content Include="Files\img\left_arrow.png" />
+    <Content Include="Files\img\logo.png" />
+    <Content Include="Files\img\logo_en.png" />
+    <Content Include="Files\img\playstore.png" />
+    <Content Include="Files\img\reduction.png" />
+    <Content Include="Files\img\right_arrow.png" />
+    <Content Include="Files\img\security.png" />
+    <Content Include="Files\img\summer.png" />
+    <Content Include="Files\img\top_ribbon.png" />
+    <Content Include="Files\img\winter.png" />
+    <Content Include="Files\index.html" />
+    <Content Include="Files\js\app.js" />
+    <Content Include="Files\js\controllers\bottombar.js" />
+    <Content Include="Files\js\controllers\ctrl.js" />
+    <Content Include="Files\js\controllers\acoustic.js" />
+    <Content Include="Files\js\controllers\language.js" />
+    <Content Include="Files\js\controllers\main.js" />
+    <Content Include="Files\js\controllers\slider.js" />
+    <Content Include="Files\js\controllers\topbar.js" />
+    <Content Include="Files\js\directives.js" />
+    <Content Include="Files\js\services\api.js" />
+    <Content Include="Files\js\services\audio.js" />
+    <Content Include="Files\js\services\platform.js" />
+    <Content Include="Files\js\services\config.js" />
+    <Content Include="Files\js\services\css.js" />
+    <Content Include="Files\js\services\var.js" />
+    <Content Include="Files\js\services\data.js" />
+    <Content Include="Files\js\services\img.js" />
+    <Content Include="Files\js\services\lexicon.js" />
+    <Content Include="Files\js\services\nav.js" />
+    <Content Include="Files\js\services\style.js" />
+    <Content Include="Files\js\services\switch.js" />
+    <Content Include="Files\libs\angular.js" />
+    <Content Include="Files\libs\jquery.js" />
+    <Content Include="Files\libs\showdown.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Files\font\Comfortaa-Bold.ttf" />
+    <Content Include="Files\font\Comfortaa-Light.ttf" />
+    <Content Include="Files\font\Comfortaa-Regular.ttf" />
+    <Content Include="Files\data\lexicon.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\profile.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60093</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60093/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

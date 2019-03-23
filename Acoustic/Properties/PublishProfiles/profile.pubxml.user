@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Dropbox\Web Projects\Acoustic\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Acoustic.dll">
+      <publishTime>02/16/2018 10:34:33</publishTime>
+    </File>
+    <File Include="bin/Acoustic.pdb">
+      <publishTime>02/16/2018 10:34:33</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>02/16/2018 10:34:36</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>02/16/2018 10:34:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 10:08:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 03:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="Files/audio/city.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/audio/construction.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/audio/lawn_mower.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/audio/night_club.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/audio/plane.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/audio/traffic.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/audio/train.mp3">
+      <publishTime>01/08/2018 11:41:35</publishTime>
+    </File>
+    <File Include="Files/css/main.css">
+      <publishTime>01/16/2018 15:39:01</publishTime>
+    </File>
+    <File Include="Files/css/style.css">
+      <publishTime>01/19/2018 15:10:19</publishTime>
+    </File>
+    <File Include="Files/data/lexicon.json">
+      <publishTime>01/24/2018 14:35:47</publishTime>
+    </File>
+    <File Include="Files/font/Comfortaa-Bold.ttf">
+      <publishTime>12/07/2017 15:39:05</publishTime>
+    </File>
+    <File Include="Files/font/Comfortaa-Light.ttf">
+      <publishTime>12/07/2017 15:39:05</publishTime>
+    </File>
+    <File Include="Files/font/Comfortaa-Regular.ttf">
+      <publishTime>12/07/2017 15:39:05</publishTime>
+    </File>
+    <File Include="Files/html/acoustic.html">
+      <publishTime>02/02/2018 13:09:28</publishTime>
+    </File>
+    <File Include="Files/html/acoustic_x.html">
+      <publishTime>01/08/2018 11:24:00</publishTime>
+    </File>
+    <File Include="Files/html/bottombar.html">
+      <publishTime>01/19/2018 11:56:44</publishTime>
+    </File>
+    <File Include="Files/html/language.html">
+      <publishTime>01/19/2018 15:41:13</publishTime>
+    </File>
+    <File Include="Files/html/main.html">
+      <publishTime>01/24/2018 14:31:16</publishTime>
+    </File>
+    <File Include="Files/html/pages/about.html">
+      <publishTime>01/08/2018 11:24:00</publishTime>
+    </File>
+    <File Include="Files/html/pages/acoustic.html">
+      <publishTime>01/08/2018 11:24:00</publishTime>
+    </File>
+    <File Include="Files/html/pages/contact.html">
+      <publishTime>12/13/2017 16:52:35</publishTime>
+    </File>
+    <File Include="Files/html/pages/explore.html">
+      <publishTime>12/13/2017 16:55:14</publishTime>
+    </File>
+    <File Include="Files/html/pages/terms.html">
+      <publishTime>12/13/2017 16:54:14</publishTime>
+    </File>
+    <File Include="Files/html/slider.html">
+      <publishTime>02/02/2018 10:32:33</publishTime>
+    </File>
+    <File Include="Files/html/topbar.html">
+      <publishTime>01/19/2018 15:28:41</publishTime>
+    </File>
+    <File Include="Files/img/acoustic.png">
+      <publishTime>01/16/2018 15:34:28</publishTime>
+    </File>
+    <File Include="Files/img/appstore.png">
+      <publishTime>12/07/2017 18:47:58</publishTime>
+    </File>
+    <File Include="Files/img/background.png">
+      <publishTime>12/07/2017 10:39:36</publishTime>
+    </File>
+    <File Include="Files/img/bottom_ribbon.png">
+      <publishTime>12/07/2017 18:13:21</publishTime>
+    </File>
+    <File Include="Files/img/favicon.ico">
+      <publishTime>01/08/2018 17:30:34</publishTime>
+    </File>
+    <File Include="Files/img/glass_1.png">
+      <publishTime>01/26/2018 09:57:56</publishTime>
+    </File>
+    <File Include="Files/img/glass_2.png">
+      <publishTime>01/26/2018 09:58:54</publishTime>
+    </File>
+    <File Include="Files/img/glass_3.png">
+      <publishTime>01/26/2018 09:53:48</publishTime>
+    </File>
+    <File Include="Files/img/glass_4.png">
+      <publishTime>01/26/2018 09:54:43</publishTime>
+    </File>
+    <File Include="Files/img/glass_5.png">
+      <publishTime>01/26/2018 09:55:54</publishTime>
+    </File>
+    <File Include="Files/img/icon.png">
+      <publishTime>01/08/2018 11:44:53</publishTime>
+    </File>
+    <File Include="Files/img/left_arrow.png">
+      <publishTime>12/14/2017 10:53:35</publishTime>
+    </File>
+    <File Include="Files/img/logo.png">
+      <publishTime>01/02/2018 16:14:00</publishTime>
+    </File>
+    <File Include="Files/img/logo_en.png">
+      <publishTime>01/02/2018 16:13:56</publishTime>
+    </File>
+    <File Include="Files/img/playstore.png">
+      <publishTime>12/07/2017 18:59:31</publishTime>
+    </File>
+    <File Include="Files/img/reduction.png">
+      <publishTime>01/11/2018 11:05:40</publishTime>
+    </File>
+    <File Include="Files/img/right_arrow.png">
+      <publishTime>12/14/2017 10:54:12</publishTime>
+    </File>
+    <File Include="Files/img/security.png">
+      <publishTime>01/11/2018 11:05:40</publishTime>
+    </File>
+    <File Include="Files/img/summer.png">
+      <publishTime>01/11/2018 11:05:40</publishTime>
+    </File>
+    <File Include="Files/img/top_ribbon.png">
+      <publishTime>12/07/2017 18:05:32</publishTime>
+    </File>
+    <File Include="Files/img/winter.png">
+      <publishTime>01/11/2018 11:05:40</publishTime>
+    </File>
+    <File Include="Files/index.html">
+      <publishTime>02/16/2018 10:29:21</publishTime>
+    </File>
+    <File Include="Files/js/app.js">
+      <publishTime>12/14/2017 23:24:33</publishTime>
+    </File>
+    <File Include="Files/js/controllers/acoustic.js">
+      <publishTime>02/02/2018 13:22:41</publishTime>
+    </File>
+    <File Include="Files/js/controllers/bottombar.js">
+      <publishTime>12/13/2017 11:03:01</publishTime>
+    </File>
+    <File Include="Files/js/controllers/ctrl.js">
+      <publishTime>01/11/2018 16:11:13</publishTime>
+    </File>
+    <File Include="Files/js/controllers/language.js">
+      <publishTime>01/19/2018 15:39:37</publishTime>
+    </File>
+    <File Include="Files/js/controllers/main.js">
+      <publishTime>01/19/2018 11:59:14</publishTime>
+    </File>
+    <File Include="Files/js/controllers/pages/about.js">
+      <publishTime>12/15/2017 03:05:43</publishTime>
+    </File>
+    <File Include="Files/js/controllers/pages/acoustic.js">
+      <publishTime>12/19/2017 11:17:46</publishTime>
+    </File>
+    <File Include="Files/js/controllers/pages/contact.js">
+      <publishTime>12/13/2017 16:19:40</publishTime>
+    </File>
+    <File Include="Files/js/controllers/pages/explore.js">
+      <publishTime>12/13/2017 16:18:57</publishTime>
+    </File>
+    <File Include="Files/js/controllers/pages/terms.js">
+      <publishTime>12/13/2017 16:19:11</publishTime>
+    </File>
+    <File Include="Files/js/controllers/slider.js">
+      <publishTime>01/12/2018 10:44:08</publishTime>
+    </File>
+    <File Include="Files/js/controllers/topbar.js">
+      <publishTime>01/19/2018 15:39:03</publishTime>
+    </File>
+    <File Include="Files/js/directives.js">
+      <publishTime>01/19/2018 15:30:01</publishTime>
+    </File>
+    <File Include="Files/js/services/api.js">
+      <publishTime>01/08/2018 14:24:08</publishTime>
+    </File>
+    <File Include="Files/js/services/audio.js">
+      <publishTime>01/11/2018 17:36:42</publishTime>
+    </File>
+    <File Include="Files/js/services/config.js">
+      <publishTime>01/25/2018 15:14:59</publishTime>
+    </File>
+    <File Include="Files/js/services/css.js">
+      <publishTime>02/02/2018 10:16:45</publishTime>
+    </File>
+    <File Include="Files/js/services/data.js">
+      <publishTime>12/08/2017 14:55:00</publishTime>
+    </File>
+    <File Include="Files/js/services/img.js">
+      <publishTime>01/08/2018 16:17:07</publishTime>
+    </File>
+    <File Include="Files/js/services/lexicon.js">
+      <publishTime>01/26/2018 10:02:50</publishTime>
+    </File>
+    <File Include="Files/js/services/nav.js">
+      <publishTime>12/15/2017 13:52:40</publishTime>
+    </File>
+    <File Include="Files/js/services/platform.js">
+      <publishTime>01/11/2018 16:10:38</publishTime>
+    </File>
+    <File Include="Files/js/services/style.js">
+      <publishTime>12/13/2017 11:05:30</publishTime>
+    </File>
+    <File Include="Files/js/services/switch.js">
+      <publishTime>01/11/2018 15:29:08</publishTime>
+    </File>
+    <File Include="Files/js/services/var.js">
+      <publishTime>01/08/2018 16:52:49</publishTime>
+    </File>
+    <File Include="Files/libs/angular.js">
+      <publishTime>07/24/2017 11:22:51</publishTime>
+    </File>
+    <File Include="Files/libs/jquery.js">
+      <publishTime>12/07/2017 13:20:51</publishTime>
+    </File>
+    <File Include="Files/libs/showdown.js">
+      <publishTime>12/08/2017 14:07:45</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>02/16/2018 10:34:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/24/2018 14:26:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<ctrl ng-controller="LanguageCtrl">
+    <css>
+
+        <script type="text/javascript">
+
+            $css.add("language");
+            $css.add("language.tur");
+            $css.add("language.eng");
+
+            $css.language
+                .begin()
+                .absolute()
+                .width(100)
+                .height(50)
+                .top(80)
+                .right(0)
+                .save();
+
+            $css.language.tur
+                .begin()
+                .relativeLeft()
+                .widthCropFromHalf(10)
+                .textHeight(50)
+                .paddingRight(8)
+                .textRight()
+                .cursorPointer()
+                .textSize(14)
+                .textColor("#157DDA")
+                .save();
+
+            $css.language.eng
+                .begin()
+                .relativeLeft()
+                .widthCropFromHalf(10)
+                .textHeight(50)
+                .paddingLeft(8)
+                .textLeft()
+                .cursorPointer()
+                .textSize(14)
+                .save();
+
+        </script>
+
+    </css>
+
+    <view class="{{state}}">
+        <tur ng-click="changeLanguage('tr')">TR</tur>
+        <eng ng-click="changeLanguage('en')">ENG</eng>
+    </view>
+
+</ctrl>

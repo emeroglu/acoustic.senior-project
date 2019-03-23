@@ -1,0 +1,79 @@
+﻿
+@font-face {
+    font-family: Comfortaa;
+    font-weight: 600;
+    src: url('../font/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+    font-family: Comfortaa;
+    font-weight: 500;
+    src: url('../font/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    font-family: Comfortaa;
+    font-weight: 400;
+    src: url('../font/Comfortaa-Light.ttf');
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/background.png');
+    color: #ffffff;
+    font-family: Comfortaa;
+}
+
+p,ul {
+    margin: 0;
+    padding: 0;
+}
+
+content {
+    position: absolute;
+    width: 960px;
+    height: 100vh;
+    left: calc(50% - 480px);
+    overflow: hidden;
+}
+
+[lexicon].a-show {
+    opacity: 1;
+}
+
+[lexicon].a-hide {
+    opacity: 0;
+}
+
+ribbon[top] {
+    position: absolute;
+    width: 100vw;
+    height: 25px;
+}
+
+ribbon img {
+    position: absolute;
+    width: 100vw;
+    height: 25px;
+}
+
+ribbon[bottom] {
+    position: absolute;
+    width: 100vw;
+    height: 25px;
+    bottom: 0;
+}
+
+ribbon img {
+    position: absolute;
+    width: 100vw;
+    height: 25px;
+}
